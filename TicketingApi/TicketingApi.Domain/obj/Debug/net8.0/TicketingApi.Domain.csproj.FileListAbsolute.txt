@@ -1,0 +1,12 @@
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\bin\Debug\net8.0\TicketingApi.Domain.deps.json
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\bin\Debug\net8.0\TicketingApi.Domain.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\bin\Debug\net8.0\TicketingApi.Domain.pdb
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.AssemblyInfoInputs.cache
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.AssemblyInfo.cs
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.csproj.CoreCompileInputs.cache
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.sourcelink.json
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\refint\TicketingApi.Domain.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\TicketingApi.Domain.pdb
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Domain\obj\Debug\net8.0\ref\TicketingApi.Domain.dll

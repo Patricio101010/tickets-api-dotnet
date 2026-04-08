@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TicketingApi.Application/1.0.0": {
+        "dependencies": {
+          "TicketingApi.Domain": "1.0.0",
+          "TicketingApi.Transport": "1.0.0"
+        },
+        "runtime": {
+          "TicketingApi.Application.dll": {}
+        }
+      },
+      "TicketingApi.Domain/1.0.0": {
+        "runtime": {
+          "TicketingApi.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TicketingApi.Transport/1.0.0": {
+        "runtime": {
+          "TicketingApi.Transport.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicketingApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketingApi.Transport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -27,21 +27,19 @@ El objetivo del proyecto es demostrar la construcción de una API escalable, con
 El proyecto sigue una arquitectura por capas:
 
 ### Capa de presentación
-- **Controllers** → exposición de endpoints y recepción de solicitudes HTTP
+- **Api** → exposición de endpoints, manejo de solicitudes HTTP y configuración de la aplicación
 
 ### Capa de aplicación / negocio
-- **Services** → implementación de reglas de negocio y validaciones
+- **Application** → implementación de casos de uso, lógica de negocio y validaciones
 
 ### Capa de dominio
-- **Entities** → modelo principal del sistema, representando las entidades y reglas base del negocio
+- **Domain** → entidades, enums e interfaces que representan el modelo y reglas del sistema
 
-### Capa de datos
-- **Repositories** → acceso a base de datos y persistencia
+### Capa de infraestructura / datos
+- **Infrastructure** → acceso a base de datos, implementación de repositorios y configuración de persistencia
 
 ### Capa de transporte
-- **DTOs** → objetos utilizados para entrada y salida de información
-
----
+- **Transport** → objetos de entrada y salida (requests, responses, filtros y modelos de paginación)
 
 ## 📊 Funcionalidades
 

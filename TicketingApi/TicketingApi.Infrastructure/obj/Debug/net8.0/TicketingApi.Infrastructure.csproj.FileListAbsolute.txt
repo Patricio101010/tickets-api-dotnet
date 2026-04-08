@@ -1,0 +1,12 @@
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\bin\Debug\net8.0\TicketingApi.Infrastructure.deps.json
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\bin\Debug\net8.0\TicketingApi.Infrastructure.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\bin\Debug\net8.0\TicketingApi.Infrastructure.pdb
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.AssemblyInfoInputs.cache
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.AssemblyInfo.cs
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.csproj.CoreCompileInputs.cache
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.sourcelink.json
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\refint\TicketingApi.Infrastructure.dll
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\TicketingApi.Infrastructure.pdb
+Z:\github\demoFactoring\apis\ProyectoAPIs\Tickets-API\tickets-api-dotnet\TicketingApi\TicketingApi.Infrastructure\obj\Debug\net8.0\ref\TicketingApi.Infrastructure.dll
