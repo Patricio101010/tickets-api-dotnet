@@ -1,24 +1,20 @@
-# 🎫 Tickets API (.NET)
+# 🎫 Ticketing API (.NET)
 
-API REST para gestión de tickets de soporte, desarrollada en .NET, enfocada en diseño de APIs, rendimiento y buenas prácticas de arquitectura.
-
----
-
-## 📌 Descripción
-
-Esta API permite gestionar tickets de soporte, incluyendo su creación, seguimiento, asignación y actualización de estado.
-
-El objetivo del proyecto es demostrar la construcción de una API escalable, con manejo adecuado de datos, validaciones y control de errores.
+API REST desarrollada en .NET para la gestión de tickets de soporte, diseñada con una arquitectura por capas y orientada a buenas prácticas de desarrollo backend.
 
 ---
 
-## 🚀 Tecnologías
+## 🚀 Descripción
 
-* .NET 8
-* C#
-* SQL Server
-* Dapper / Entity Framework (según implementación)
-* ASP.NET Core Web API
+Este proyecto implementa un sistema de tickets que permite:
+
+- Crear y gestionar tickets
+- Actualizar estado y asignación
+- Registrar comentarios asociados
+- Consultar información con filtros y paginación
+- Exponer catálogos (usuarios, prioridades, categorías)
+
+El objetivo es demostrar una arquitectura limpia, mantenible y escalable, aplicando separación de responsabilidades.
 
 ---
 
@@ -26,108 +22,84 @@ El objetivo del proyecto es demostrar la construcción de una API escalable, con
 
 El proyecto sigue una arquitectura por capas:
 
-### Capa de presentación
-- **Api** → exposición de endpoints, manejo de solicitudes HTTP y configuración de la aplicación
+### Capa de presentación (`Api`)
+- Controllers
+- Exposición de endpoints REST
+- Manejo de solicitudes HTTP
 
-### Capa de aplicación / negocio
-- **Application** → implementación de casos de uso, lógica de negocio y validaciones
+### Capa de aplicación (`Application`)
+- Services
+- Reglas de negocio
+- Validaciones
 
-### Capa de dominio
-- **Domain** → entidades, enums e interfaces que representan el modelo y reglas del sistema
+### Capa de dominio (`Domain`)
+- Entities
+- Enums
+- Interfaces de repositorio
 
-### Capa de infraestructura / datos
-- **Infrastructure** → acceso a base de datos, implementación de repositorios y configuración de persistencia
+### Capa de infraestructura (`Infrastructure`)
+- Repositories
+- Acceso a datos (Dapper / SQL Server)
+- Configuración de conexión
 
-### Capa de transporte
-- **Transport** → objetos de entrada y salida (requests, responses, filtros y modelos de paginación)
-
-## 📊 Funcionalidades
-
-* Crear ticket
-* Listar tickets con:
-
-  * paginación
-  * filtros (estado, prioridad, categoría)
-* Obtener detalle de ticket
-* Actualizar ticket
-* Cambiar estado
-* Asignar responsable
-* Agregar comentarios
-* Manejo centralizado de errores
+### Capa de transporte (`Transport`)
+- DTOs (Request / Response)
+- Modelos de entrada y salida
 
 ---
 
-## 🧱 Modelo de datos (simplificado)
+## 🛠 Tecnologías utilizadas
 
-### Ticket
-
-* Id
-* Código
-* Título
-* Descripción
-* EstadoId
-* PrioridadId
-* CategoríaId
-* UsuarioId
-* AsignadoAId
-* FechaCreación
-
-### Comentario
-
-* Id
-* TicketId
-* Texto
-* UsuarioId
-* Fecha
+- .NET 8
+- ASP.NET Core Web API
+- Dapper
+- SQL Server
+- FluentValidation
+- Swagger (OpenAPI)
 
 ---
 
-## 🔎 Ejemplo de endpoints
+## 📌 Endpoints principales
 
-```http
-GET    /api/tickets
-GET    /api/tickets/{id}
-POST   /api/tickets
-PUT    /api/tickets/{id}
-PATCH  /api/tickets/{id}/estado
-POST   /api/tickets/{id}/comentarios
-```
+### 🎫 Tickets
+
+| Método | Endpoint | Descripción |
+|-------|--------|------------|
+| GET | `/api/tickets` | Obtener tickets (con filtros y paginación) |
+| GET | `/api/tickets/{id}` | Obtener ticket por ID |
+| POST | `/api/tickets` | Crear ticket |
+| PUT | `/api/tickets/{id}` | Actualizar ticket |
+| PATCH | `/api/tickets/{id}/status` | Actualizar estado |
 
 ---
 
-## ⚙️ Ejecución
+### 💬 Comentarios
 
-1. Clonar repositorio
-2. Configurar conexión a base de datos en `appsettings.json`
-3. Ejecutar migraciones (si aplica)
-4. Ejecutar proyecto:
+| Método | Endpoint | Descripción |
+|-------|--------|------------|
+| GET | `/api/tickets/{ticketId}/comments` | Listar comentarios |
+| POST | `/api/tickets/{ticketId}/comments` | Crear comentario |
+
+---
+
+### 📚 Catálogos
+
+| Método | Endpoint |
+|-------|----------|
+| GET | `/api/catalogs/categories` |
+| GET | `/api/catalogs/priorities` |
+| GET | `/api/catalogs/users` |
+
+---
+
+## ⚙️ Ejecución del proyecto
+
+### 1. Clonar repositorio
 
 ```bash
-dotnet run
+git clone https://github.com/Patricio101010/tickets-api-dotnet.git
+cd tickets-api-dotnet
 ```
-
----
-
-## 🧠 Enfoque técnico
-
-* Diseño de APIs REST consistentes
-* Separación de responsabilidades
-* Manejo de errores estructurado
-* Código mantenible y escalable
-* Preparado para crecimiento futuro
-
----
-
-## 📈 Mejoras futuras
-
-* Autenticación y autorización (JWT)
-* Logging estructurado
-* Cache (Redis)
-* Documentación con Swagger avanzada
-* Pruebas unitarias
-
----
-
 ## 📬 Notas
 
 Este proyecto es una implementación demostrativa con fines de portafolio.
